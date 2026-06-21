@@ -822,7 +822,7 @@ export default function App() {
                     >
                       <div className="flex items-center space-x-1.5 font-bold text-indigo-400 text-sm">
                         <BookOpen className="h-4 w-4" />
-                        <span>Estudo Teocrático e Bibliografia:</span>
+                        <span>Estudo da Bíblia e Referências:</span>
                       </div>
                       
                       <div className="flex items-center space-x-2 text-indigo-200 font-medium text-base">
@@ -831,7 +831,7 @@ export default function App() {
                       </div>
                       
                       <p className="text-[11px] text-slate-400 leading-relaxed pt-2 border-t border-white/5">
-                        * Use essa passagem sobre o relato para aprofundar seu conhecimento teológico durante sua Hora de Estudo Pessoal ou Adoração em Família semanal.
+                        * Use essa passagem sobre o relato para continuar estudando e aumentando seu conhecimento da Bíblia durante sua Hora de Estudo Pessoal ou Adoração em Família semanal.
                       </p>
                     </motion.div>
                   )}
@@ -930,7 +930,7 @@ export default function App() {
                   {lives <= 0 ? 'Você esgotou suas vidas!' : `Acertou apenas ${correctInLevel} de 5 perguntas faróis!`}
                 </div>
                 <p className="text-sm text-slate-400 max-w-sm mx-auto leading-relaxed mt-2 p-1">
-                  Não desanime! O estudo da Bíblia é reconfortante e progressivo. Recupere o fôlego teológico e tente novamente.
+                  Não desanime! O estudo da Bíblia é reconfortante e progressivo. Recupere as forças, continue aumentando seu conhecimento espiritual e tente novamente.
                 </p>
               </div>
 
@@ -1050,7 +1050,7 @@ export default function App() {
       <footer className="relative z-10 bg-slate-950/40 border-t border-white/5 py-5 px-4 text-center text-xs text-slate-500 mt-8">
         <div className="max-w-4xl mx-auto space-y-1.5">
           <p>
-            Desenvolvido em conformidade teocrática com estudos enriquecedores gratuitos do <span className="font-bold text-indigo-400">JW.ORG®</span>.
+            As perguntas deste desafio são extraídas diretamente da Bíblia Sagrada. Todo o material e conteúdo oficial do <span className="font-bold text-indigo-400">JW.ORG®</span> são protegidos pelas leis de direitos autorais.
           </p>
           <p className="text-[10px] text-slate-600">
             Este aplicativo não possui fins lucrativos e foi construído de forma independente como um quiz educativo para entretenimento saudável cristão.

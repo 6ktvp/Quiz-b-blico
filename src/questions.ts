@@ -404,6 +404,56 @@ export const QUESTIONS_POOL: Question[] = [
     correctAnswerIndex: 2,
     citation: 'Romanos 11:1'
   },
+  {
+    id: 'm21',
+    theme: 'Apocalipse (Nova Jerusalém)',
+    level: 2,
+    levelName: 'Médio',
+    question: 'No livro do Apocalipse (Revelação), quantas portas de pérolas tem a muralha da Nova Jerusalém?',
+    options: ['4 portas', '12 portas', '7 portas', '24 portas'],
+    correctAnswerIndex: 1,
+    citation: 'Apocalipse 21:12, 21'
+  },
+  {
+    id: 'm22',
+    theme: 'Apocalipse (Símbolos)',
+    level: 2,
+    levelName: 'Médio',
+    question: 'Em Apocalipse, qual é o número registrado como o número da fera (ou animal selvagem)?',
+    options: ['777', '144.000', '616', '666'],
+    correctAnswerIndex: 3,
+    citation: 'Apocalipse 13:18'
+  },
+  {
+    id: 'm23',
+    theme: 'Apocalipse (Sete Igrejas)',
+    level: 2,
+    levelName: 'Médio',
+    question: 'No início do Apocalipse, a quantas congregações (ou igrejas) da província da Ásia João é instruído a enviar cartas escritas?',
+    options: ['3 congregações', '7 congregações', '12 congregações', '10 congregações'],
+    correctAnswerIndex: 1,
+    citation: 'Apocalipse 1:4, 11'
+  },
+  {
+    id: 'm24',
+    theme: 'Reis de Judá',
+    level: 2,
+    levelName: 'Médio',
+    question: 'Quantos anos tinha Josias quando começou a reinar em Jerusalém?',
+    options: ['12 anos', '8 anos', '18 anos', '20 anos'],
+    correctAnswerIndex: 1,
+    citation: '2 Reis 22:1'
+  },
+  {
+    id: 'm25',
+    theme: 'Cartas de Paulo',
+    level: 2,
+    levelName: 'Médio',
+    question: 'Qual é o menor livro das Escrituras Gregas Cristãs em número de versículos que foi escrito pelo apóstolo Paulo?',
+    options: ['Filêmon', 'Tito', '2 João', 'Hebreus'],
+    correctAnswerIndex: 0,
+    citation: 'Filêmon 1-25'
+  },
 
   // ================= 20 PERGUNTAS DIFÍCEIS (level: 3, levelName: 'Difícil') =================
   {
@@ -763,7 +813,7 @@ export const QUESTIONS_POOL: Question[] = [
     level: 4,
     levelName: 'Difícil Hard',
     question: 'Na primeira visão do profeta Zacarias, de que cor eram os cavalos que patrulhavam a terra?',
-    options: ['Vermelhos, baios e brancos', 'Pretos, amarelos e cinzentos', 'Pálidos e vermelhos', 'Apenas brancos'],
+    options: ['Vermelhos, castanhos e brancos', 'Pretos, amarelos e cinzentos', 'Pálidos e vermelhos', 'Apenas brancos'],
     correctAnswerIndex: 0,
     citation: 'Zacarias 1:8'
   },
@@ -806,5 +856,55 @@ export const QUESTIONS_POOL: Question[] = [
     options: ['Ninrode', 'Canaã', 'Mizraim', 'Assur'],
     correctAnswerIndex: 0,
     citation: 'Gênesis 10:8, 9'
+  },
+  {
+    id: 'dh21',
+    theme: 'Apocalipse (As Sete Taças)',
+    level: 4,
+    levelName: 'Difícil Hard',
+    question: 'Em Apocalipse, qual praga atinge a terra quando a primeira das sete taças da ira de Deus é derramada?',
+    options: ['As águas se tornam em sangue', 'Úlceras dolorosas e malignas nos humanos', 'A escuridão cobre o reino', 'Uma terrível chuva de pedras'],
+    correctAnswerIndex: 1,
+    citation: 'Apocalipse 16:2'
+  },
+  {
+    id: 'dh22',
+    theme: 'Apocalipse (As Sete Trombetas)',
+    level: 4,
+    levelName: 'Difícil Hard',
+    question: 'Quando o terceiro anjo tocou a sua trombeta em Apocalipse, uma grande estrela caiu do céu queimando como uma lâmpada. Qual era o nome dessa estrela?',
+    options: ['Absinto', 'Apolion', 'Abadon', 'Lucena'],
+    correctAnswerIndex: 0,
+    citation: 'Apocalipse 8:10, 11'
+  },
+  {
+    id: 'dh23',
+    theme: 'Apocalipse (Os 144.000)',
+    level: 4,
+    levelName: 'Difícil Hard',
+    question: 'De acordo com o livro do Apocalipse, os 144.000 selados sob a proteção divina são descritos cantando o quê perante o trono?',
+    options: ['O cântico de Moisés e do Cordeiro', 'Um novo cântico que ninguém mais podia aprender', 'Um hino de louvor ao Sumo Pastor', 'As canções tradicionais de Sião'],
+    correctAnswerIndex: 1,
+    citation: 'Apocalipse 14:3'
+  },
+  {
+    id: 'dh24',
+    theme: 'Apocalipse (Os Cavaleiros)',
+    level: 4,
+    levelName: 'Difícil Hard',
+    question: 'De acordo com o livro de Apocalipse (Revelação), que autoridade ou poder é dado ao cavaleiro do cavalo descorado?',
+    options: ['Autoridade para inflamar a guerra mundial', 'Autoridade sobre a quarta parte da terra, para matar com espada, escassez de alimentos, praga mortífera e feras', 'Autoridade para balançar a balança econômica de forma injusta', 'Autoridade para selar os servos de Deus na testa'],
+    correctAnswerIndex: 1,
+    citation: 'Apocalipse 6:8'
+  },
+  {
+    id: 'dh25',
+    theme: 'Apocalipse (Símbolos)',
+    level: 4,
+    levelName: 'Difícil Hard',
+    question: 'De acordo com Apocalipse 21, de que pedra preciosa é feito o muro da Nova Jerusalém, e qual é a sua primeira fundação?',
+    options: ['Jaspe e jaspe', 'Ouro e safira', 'Jaspe e esmeralda', 'Diamante e rubi'],
+    correctAnswerIndex: 0,
+    citation: 'Apocalipse 21:18, 19'
   }
 ];
