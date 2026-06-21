@@ -361,8 +361,10 @@ export default function App() {
       <header className="relative z-10 bg-[#0A0C14]/50 backdrop-blur-md border-b border-white/5 py-4 px-4 sm:px-10">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div className="flex flex-col">
-            <span className="text-[9px] uppercase tracking-[0.3em] text-indigo-400 font-extrabold mb-0.5">
-              Ref. JW.ORG • Desafio Progressivo
+            <span className="text-[9px] uppercase tracking-[0.3em] text-indigo-400 font-extrabold mb-0.5 flex flex-wrap gap-x-2 gap-y-0.5 items-center">
+              <span>Ref. JW.ORG • Desafio Progressivo</span>
+              <span className="text-slate-600 font-normal">|</span>
+              <span className="text-slate-400 lowercase font-medium tracking-normal">Criado por Daniel Alves (<span className="text-indigo-300 font-mono font-medium select-all">ddj.daniel.alves@gmail.com</span>)</span>
             </span>
             <div className="flex items-center space-x-2">
               <span className="text-2xl sm:text-3xl font-serif font-black italic tracking-tight text-white bg-gradient-to-r from-white via-slate-100 to-indigo-300 bg-clip-text text-transparent">
